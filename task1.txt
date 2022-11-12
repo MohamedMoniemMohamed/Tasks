@@ -1,0 +1,15 @@
+from pyopenms import*
+seq = AASequence.fromString("VAKA")
+mass_all = seq.getMonoWeight()
+print("Monoisotopic mass of peptide [M] is", mass_all)
+print("------------")
+total_mass = 0
+print("The peptide", str(seq), "consists of the following amino acids:")
+for i in seq :
+print(i.getName(), ":", i.getMonoWeight())
+total_mass += i.getMonoWeight()
+
+
+print("-----------")
+
+print("mass(v) + mass(A) + mass(K) + mass(A) + ==", totalmass)
