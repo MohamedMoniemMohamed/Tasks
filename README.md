@@ -1,2 +1,2 @@
 # College Tasks
-My College Tasks at Computational techniques for biology
+My College Tasks at Computational techniques.
